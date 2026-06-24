@@ -1,0 +1,16 @@
+{
+  "name": "nova-bots",
+  "version": "1.0.0",
+  "description": "Nova Studio bot runner — corre todos los bots configurados en Firebase 24/7",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "firebase-admin": "^12.0.0",
+    "node-fetch": "^2.7.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
